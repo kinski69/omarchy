@@ -59,6 +59,7 @@ while true; do
     matrix \
     --rain-color-gradient 00ff41 00e63c 00c832 00a328 007a1f 004a12 \
     --highlight-color d2ffd6 \
+    --rain-symbols ᚠ ᚢ ᚦ ᚨ ᚱ ᚲ ᚷ ᚹ ᚺ ᚾ ᛁ ᛃ ᛇ ᛈ ᛉ ᛊ ᛏ ᛒ ᛖ ᛗ ᛚ ᛜ ᛞ ᛟ \
     --rain-time 45 &
 
   while pgrep -t "${tty#/dev/}" -x ttfx >/dev/null; do
